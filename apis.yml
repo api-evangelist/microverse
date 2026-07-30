@@ -1,8 +1,26 @@
 aid: microverse
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microverse.png
 name: Microverse
-description: Microverse is a company surfaced as a portfolio company of general-catalyst, northzone and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Microverse is an online education platform that trains people worldwide
+  to become remote software developers, founded by Ariel Camus with the stated mission
+  of connecting one million people to remote jobs by 2030. Its model pairs students
+  across time zones for peer collaboration that mirrors distributed engineering teams,
+  and it historically charged tuition only after graduates secured a job. Microverse
+  also runs Leap, an English-practice platform for developers. It is a private, distributed
+  company backed by investors including Y Combinator, Hack.VC, and General Catalyst.
+  Microverse does not currently publish a public developer API, SDKs, or API documentation;
+  this profile captures its public web presence and security posture.
 url: https://raw.githubusercontent.com/api-evangelist/microverse/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Education
+- EdTech
+- Software Development
+- Remote Work
+- Developer Training
+- Coding Bootcamp
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/microverse-domain-security.yml
 - type: Website
   url: https://www.microverse.org
+- type: Blog
+  url: https://www.microverse.org/blog
+- type: HelpCenter
+  url: https://www.microverse.org/help-center
+- type: GitHubOrganization
+  url: https://github.com/microverseinc
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
